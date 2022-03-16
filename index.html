@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/toDoList.js" defer></script>
+  </head>
+  <body>
+
+      <header>
+        <h1>To-Do List</h1>
+      </header>
+
+      <main>
+        <!--Creating the textbox and button to add to your list-->
+        <label for="event">Task: </label>
+        <input type="text" name="event" id="event">
+        <button>Add</button>
+      </main>
+      <!--Audio tags so that we can capture the sound with our js and play it-->
+        <audio id="ding">
+          <source src="sounds/ding-sound-effect_2.mp3" type="audio/mpeg">
+        </audio>
+        <ul>
+        </ul>
+  </body>
+</html>

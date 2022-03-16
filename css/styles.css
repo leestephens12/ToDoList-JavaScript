@@ -1,0 +1,32 @@
+/*
+    Turn background color of the page to white
+*/
+html {
+    background-color: white;
+}
+
+/*
+    centre the body, place a border around it and change the background to brown
+*/
+body {
+    border: 5px solid black;
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    width: 500px;
+    background-color: rgb(187, 118, 73);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+/*
+    make the button red and smaller
+*/
+#delete {
+    background-color: red;
+    margin-left: 3px;
+    font-size: 90%;
+}
